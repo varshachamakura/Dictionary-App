@@ -58,10 +58,9 @@ function Dictionary() {
                 <button type='submit' className='btn btn-primary w-100'>Search</button>
             </form>
 
-            {/* Display error message if present */}
+      
             {error && <div className='alert alert-danger'>{error}</div>}
 
-            {/* Display definitions if available */}
             {definitions.length > 0 && (
                 <div>
                     <h3 className='mb-3 text-info'>Definitions:</h3>
